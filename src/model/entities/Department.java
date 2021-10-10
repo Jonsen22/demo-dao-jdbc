@@ -6,7 +6,7 @@ public class Department implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	
-	private int id;
+	private Integer id;
 	private String name;
 	
 	public Department(int id, String name) {
@@ -19,7 +19,7 @@ public class Department implements Serializable {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
